@@ -1,5 +1,6 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const merge = Object.assign({}, obj1, obj2);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
-console.log(false == '0');
+const arrayContains = (arr, element) => arr.includes(element);
+[foo, bar] = [bar, foo];
+const isEven = (num) => num % 2 === 0;
+const results = await Promise.all(resultingPromises);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const merge = (a, b) => [...a, ...b];
