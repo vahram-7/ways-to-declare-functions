@@ -1,3 +1,4 @@
+const toggleBool = () => (bool = !bool);
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
 const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-var arr1 = "john".split('');
-console.log(false == '0');
