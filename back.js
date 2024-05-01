@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const randomBoolean = () => Math.random() >= 0.5;
-const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
+const stringReverse = str => str.split("").reverse().join("");
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const fullName = name || 'buddy';
