@@ -1,2 +1,2 @@
-const maxNumber = arr => Math.max(...arr);
-const uniqueArray = arr => [...new Set(arr)];
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
