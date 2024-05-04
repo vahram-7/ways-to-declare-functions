@@ -1,2 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+var pattern = {};
+console.log(1 +  -"1" + "2");
