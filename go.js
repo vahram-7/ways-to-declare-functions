@@ -1,2 +1,1 @@
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const merge = Object.assign({}, obj1, obj2);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
