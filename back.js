@@ -1,3 +1,1 @@
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
-const stringReverse = str => str.split("").reverse().join("");
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
