@@ -1,2 +1,2 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
-const isEmptyArray = arr => !arr.length;
+const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
+const intermediateAppPath = path.join(buildOutputPath, 'app');
