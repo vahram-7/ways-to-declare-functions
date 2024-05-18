@@ -1,1 +1,1 @@
-const appName = getAppName(channel);
+const merge = (a, b) => a.concat(b);
