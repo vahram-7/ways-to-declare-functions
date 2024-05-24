@@ -1,2 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log(typeof typeof 1);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const merge = [...new Set([...a, ...b])];
