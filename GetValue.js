@@ -1,2 +1,3 @@
-console.log("0 || 1 = "+(0 || 1));
-const arrayContains = (arr, element) => arr.includes(element);
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log( "A" - "B" + 2);
+function myAPITS(someString: string, someNum: number) { ... };
