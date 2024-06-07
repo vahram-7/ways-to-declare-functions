@@ -1,2 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const arrayContains = (arr, element) => arr.includes(element);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
