@@ -1,3 +1,2 @@
-console.log(1 +  +"2" + "2");
-var pattern = {};
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+const randomString = () => Math.random().toString(36).slice(2);
+const added = [0, 1, 2, 3, 4].map((item) => item + 1);
