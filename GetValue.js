@@ -1,2 +1,3 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const removeDuplicates = (arr) => [...new Set(arr)];
+const appName = getAppName(channel);
+const getRandomBoolean = () => Math.random() >= 0.5;
+const toggleBool = () => (bool = !bool);
