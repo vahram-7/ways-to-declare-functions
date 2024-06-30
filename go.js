@@ -1,2 +1,2 @@
-const executableName = getExecutableName(channel, appName);
-const flattenedArray = arr => [].concat(...arr);
+const stringReverse = str => str.split("").reverse().join("");
+const isEven = (num) => num % 2 === 0;
