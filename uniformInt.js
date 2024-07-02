@@ -1,2 +1,2 @@
-const appName = getAppName(channel);
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+var c = new Counter(); c.add(); c.add(); c.add();
