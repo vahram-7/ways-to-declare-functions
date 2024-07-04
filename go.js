@@ -1,2 +1,2 @@
-const stringReverse = str => str.split("").reverse().join("");
-const isEven = (num) => num % 2 === 0;
+const toggleBool = () => (bool = !bool);
+const results = await Promise.all(resultingPromises);
