@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-var c = new Counter(); c.add(); c.add(); c.add();
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+[foo, bar] = [bar, foo];
+const randomBoolean = () => Math.random() >= 0.5;
