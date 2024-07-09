@@ -1,2 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const merge = (a, b) => a.concat(b);
+const intermediateAppPath = path.join(buildOutputPath, 'app');
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
