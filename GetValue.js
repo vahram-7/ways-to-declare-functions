@@ -1,3 +1,2 @@
-console.log(+"1" +  "1" + "2");
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const fullName = name || 'buddy';
+const merge = (a, b) => a.concat(b);
+const lastElement = arr => arr[arr.length - 1];
