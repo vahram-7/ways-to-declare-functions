@@ -1,3 +1,2 @@
-console.log(typeof typeof 1);
-const electronDownloadPath = path.join(repositoryRootPath, 'electron');
-const merge = [...new Set([...a, ...b])];
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const isTabInView = () => !document.hidden;
