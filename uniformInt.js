@@ -1,2 +1,2 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log("1 || 2 = "+(1 || 2));
