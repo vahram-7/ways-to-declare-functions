@@ -1,1 +1,1 @@
-console.log(false == '0');
+const isWeekday = (date) => date.getDay() % 6 !== 0;
