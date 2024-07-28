@@ -1,2 +1,3 @@
-const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
-var arr3 = "jones".split('');
+const merge = [...new Set([...a, ...b])];
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
