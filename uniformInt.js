@@ -1,3 +1,2 @@
-const merge = [...new Set([...a, ...b])];
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-const symbolsPath = path.join(buildOutputPath, 'symbols');
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
