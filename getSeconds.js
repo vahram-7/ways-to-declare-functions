@@ -1,3 +1,3 @@
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
-const isEmptyArray = arr => !arr.length;
-const randomNumberInRange = (min = 0, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
+console.log( "A" - "B" + 2);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
